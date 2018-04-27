@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FruitClassification - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\www\AppData\Local\Temp\RSP4212.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/FruitClassification.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\毕业设计\codes\FruitClassification\FruitClassificationDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\www\AppData\Local\Temp\RSP4212.tmp" 
+Creating temporary file "C:\Users\www\AppData\Local\Temp\RSP4213.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/FruitClassification.pdb" /debug /machine:I386 /out:"Debug/FruitClassification.exe" /pdbtype:sept 
+".\Debug\ColorCoOccur.obj"
+".\Debug\Dib.obj"
+".\Debug\DirDialog.obj"
+".\Debug\FruitClassification.obj"
+".\Debug\FruitClassificationDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\WvltTrans.obj"
+".\Debug\FruitClassification.res"
+]
+Creating command line "link.exe @C:\Users\www\AppData\Local\Temp\RSP4213.tmp"
+<h3>Output Window</h3>
+Compiling...
+FruitClassificationDlg.cpp
+F:\毕业设计\codes\FruitClassification\FruitClassificationDlg.cpp(325) : warning C4172: returning address of local variable or temporary
+F:\毕业设计\codes\FruitClassification\FruitClassificationDlg.cpp(707) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+F:\毕业设计\codes\FruitClassification\FruitClassificationDlg.cpp(816) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+F:\毕业设计\codes\FruitClassification\FruitClassificationDlg.cpp(707) : warning C4700: local variable 'pTrans' used without having been initialized
+F:\毕业设计\codes\FruitClassification\FruitClassificationDlg.cpp(816) : warning C4700: local variable 'pTrans' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+FruitClassification.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
